@@ -1,0 +1,10 @@
+Algoritmo para gerar etiquetas de equipe
+
+Início:
+    1. Perguntar: Qual o nome da equipe?
+       Armazenar o nome da equipe.
+    
+    2. Para i de 1 até 5, faça:
+        2.1 Imprimir: "Nome da equipe - i"
+    
+Fim.
