@@ -1,0 +1,23 @@
+
+Identificadores e declaração de variáveis:
+
+1. Identificadores das variáveis:
+   - nome_usuario
+   - cpf_usuario
+   - rg_usuario
+   - altura_usuario
+   - endereco_usuario
+
+2. Declaração das variáveis com seus respectivos identificadores e tipos de dado:
+   - nome_usuario: string (armazena texto)
+   - cpf_usuario: string (consideramos CPF como string para preservar o formato com zeros iniciais)
+   - rg_usuario: string (o RG pode conter letras em alguns casos, por isso, string)
+   - altura_usuario: float (números decimais)
+   - endereco_usuario: string (armazena o endereço completo)
+
+3. Comandos de atribuição:
+   nome_usuario = "José Almeida da Silva"
+   cpf_usuario = "12345678900"
+   rg_usuario = "9517530"
+   altura_usuario = 1.78
+   endereco_usuario = "Rua A, 380 – Centro – Recife/PE"
