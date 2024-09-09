@@ -1,0 +1,27 @@
+
+Algoritmo para entrada de dados pessoais e exibição de alguns desses dados:
+
+1. Inicio
+
+2. Declarar variáveis:
+   - nome: string
+   - endereco: string
+   - cidade: string
+   - cpf: string
+   - rg: string
+
+3. Entrada de dados:
+   leia(nome)        // Usuário digita o nome
+   leia(endereco)    // Usuário digita o endereço
+   leia(cidade)      // Usuário digita a cidade
+   leia(cpf)         // Usuário digita o CPF
+   leia(rg)          // Usuário digita o RG
+
+4. Saída de dados:
+   escreva("Nome: ", nome)
+   escreva("Endereço: ", endereco)
+   escreva("Cidade: ", cidade)
+   escreva("CPF: ", cpf)
+   escreva("RG: ", rg)
+
+5. Fim
