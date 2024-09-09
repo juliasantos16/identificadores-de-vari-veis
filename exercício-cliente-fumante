@@ -1,0 +1,12 @@
+Algoritmo para alocação de clientes no restaurante
+
+Início:
+    1. Perguntar: O cliente é fumante ou está com animais de estimação? (S/N)
+        1.1 Se Sim, alocar na Área Externa.
+        1.2 Se Não, continuar.
+        
+    2. Perguntar: Quantas pessoas estão no grupo?
+        2.1 Se o grupo tiver 5 ou mais pessoas, alocar no 1º andar.
+        2.2 Se o grupo tiver menos de 5 pessoas, alocar no Térreo.
+
+Fim.
