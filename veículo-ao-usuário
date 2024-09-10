@@ -1,0 +1,23 @@
+# Solicita as informações do veículo ao usuário
+quantidade_rodas = int(input("Digite a quantidade de rodas do veículo: "))
+peso_bruto = float(input("Digite o peso bruto em quilogramas do veículo: "))
+quantidade_pessoas = int(input("Digite a quantidade de pessoas no veículo: "))
+
+# Determina a categoria de habilitação com base nas condições fornecidas
+if quantidade_rodas == 2 or quantidade_rodas == 3:
+    categoria = "A"
+elif quantidade_rodas == 4:
+    if quantidade_pessoas <= 8 and peso_bruto <= 3500:
+        categoria = "B"
+    elif 3500 < peso_bruto <= 6000:
+        categoria = "C"
+    elif quantidade_pessoas > 8:
+        categoria = "D"
+    elif peso_bruto > 6000:
+        categoria = "E"
+else:
+    categoria = "Não definido"
+
+# Exibe a categoria de habilitação
+print(f"A categoria de habilitação para o veículo é: {categoria}")
+
