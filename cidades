@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Zero - Recife</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para um arquivo CSS externo se necessário -->
+</head>
+<body>
+    <header>
+        <h1>Marco Zero de Recife</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#imagens">Imagens</a></li>
+                <li><a href="#visita">Como Visitar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Marco Zero</h2>
+            <p>
+                O Marco Zero é o ponto de partida para todas as distâncias da cidade de Recife, 
+                localizado na <em>Praça do Marco Zero</em>. Este monumento histórico é um dos principais 
+                símbolos da cidade e representa a rica cultura e história da região.
+            </p>
+            <p>
+                A área é cercada por atrações turísticas, incluindo o <strong>Teatro Santa Isabel</strong> 
+                e o <strong>Museu do Frevo</strong>, além de ser um local ideal para apreciar a vista do 
+                <strong>Centro Histórico</strong> e do <strong>Rio Capibaribe</strong>.
+            </p>
+        </section>
+
+        <section id="imagens">
+            <h2>Imagens do Marco Zero</h2>
+            <figure>
+                <img src="marco-zero.jpg" alt="Vista do Marco Zero" width="600">
+                <figcaption>Vista do Marco Zero com o Pôr do Sol.</figcaption>
+            </figure>
+            <figure>
+                <img src="praça-marco-zero.jpg" alt="Praça do Marco Zero" width="600">
+                <figcaption>Praça do Marco Zero e suas atrações.</figcaption>
+            </figure>
+        </section>
+
+        <section id="visita">
+            <h2>Como Visitar</h2>
+            <p>
+                O Marco Zero está localizado no coração do Recife e pode ser facilmente acessado de 
+                transporte público. Recomendamos a visita durante o dia para aproveitar ao máximo 
+                as atrações ao redor.
+            </p>
+            <p>
+                Não esqueça de tirar muitas fotos e aproveitar a cultura local!
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Todos os direitos reservados.</p>
+        <p>Desenvolvido por [Seu Nome]</p>
+    </footer>
+</body>
+</html>
