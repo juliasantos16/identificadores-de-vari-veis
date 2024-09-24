@@ -6,6 +6,56 @@
     <title>Lugares Turísticos na Europa</title
    
 </head>
+
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            overflow: hidden;
+            width: calc(33% - 40px);
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-bottom: 1px solid #eee;
+        }
+        .card h3 {
+            margin: 10px 0;
+        }
+        .card p {
+            padding: 0 10px;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 <body>
 
     <header>
