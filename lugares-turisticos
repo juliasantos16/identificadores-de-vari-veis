@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turísticos na Europa</title
+   
+</head>
+<body>
+
+    <header>
+        <h1>Descubra os Lugares Turísticos da Europa</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Principais Destinos</h2>
+            <div class="card">
+                <img src="eiffel-tower.jpg" alt="Torre Eiffel">
+                <h3>Torre Eiffel</h3>
+                <p>Localizada em Paris, a Torre Eiffel é um dos monumentos mais icônicos do mundo.</p>
+            </div>
+            <div class="card">
+                <img src="colosseum.jpg" alt="Coliseu">
+                <h3>Coliseu</h3>
+                <p>O Coliseu em Roma é um famoso anfiteatro e um símbolo da arquitetura romana.</p>
+            </div>
+            <div class="card">
+                <img src="big-ben.jpg" alt="Big Ben">
+                <h3>Big Ben</h3>
+                <p>O Big Ben, localizado em Londres, é um dos relógios mais conhecidos do mundo.</p>
+            </div>
+            <div class="card">
+                <img src="sagrada-familia.jpg" alt="Sagrada Família">
+                <h3>Sagrada Família</h3>
+                <p>A Sagrada Família é uma obra-prima de Antoni Gaudí em Barcelona.</p>
+            </div>
+            <div class="card">
+                <img src="amsterdam.jpg" alt="Canais de Amsterdam">
+                <h3>Canais de Amsterdam</h3>
+                <p>Os belos canais de Amsterdam são Patrimônio Mundial da UNESCO.</p>
+            </div>
+            <div class="card">
+                <img src="acropolis.jpg" alt="Acrópole">
+                <h3>Acrópole</h3>
+                <p>A Acrópole de Atenas é uma antiga cidadela com impressionantes ruínas.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Todos os direitos reservados.</p>
+        <p>Desenvolvido por [Seu Nome]</p>
+    </footer>
+
+</body>
+</html>
